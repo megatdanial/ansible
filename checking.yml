@@ -1,6 +1,8 @@
 - name: Checking
   hosts: all
   tasks:
+    - name: Try ping
+      ping:
     - name: Check df -h
       command: df -h
       register: df_results
