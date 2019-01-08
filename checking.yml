@@ -1,0 +1,5 @@
+- name: Checking
+  hosts: all
+  tasks:
+    - name: Check df -h
+      command: df -h
