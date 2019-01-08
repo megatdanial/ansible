@@ -4,5 +4,5 @@
     - name: Check df -h
       command: df -h
       register: df_results
-    - debug: var=df_results
+    - debug: var=df_results.stdout
 
