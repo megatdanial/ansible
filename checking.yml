@@ -3,5 +3,5 @@
   tasks:
     - name: Check df -h
       command: df -h
-    - debug: var=stdout
+      debug: var=stdout
 
