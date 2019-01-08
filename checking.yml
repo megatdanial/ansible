@@ -3,5 +3,6 @@
   tasks:
     - name: Check df -h
       command: df -h
-      debug: var=stdout
+      register: df_results
+    - debug: var=df_results
 
