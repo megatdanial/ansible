@@ -2,6 +2,5 @@
   hosts: all
   tasks:
     - name: Check df -h
-      debug:
-        command: df -h
+      command: df -h
 
